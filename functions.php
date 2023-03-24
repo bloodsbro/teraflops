@@ -7,7 +7,7 @@ require_once('functions/configurator/index.php');
 function teraflops_register_scripts()
 {
   wp_enqueue_style('swiper', get_template_directory_uri() . '/assets/libs/swiper/swiper-bundle.min.css');
-  wp_enqueue_style('app', get_template_directory_uri() . '/assets/css/app.css');
+  wp_enqueue_style('app', get_template_directory_uri() . '/assets/scss/app.css');
   wp_enqueue_style('app', get_template_directory_uri() . '/style.css');
 
   wp_deregister_script('jquery');

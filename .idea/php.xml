@@ -11,7 +11,7 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/../test.invasion.su" />
+      <path value="$PROJECT_DIR$/../wordpress-6.1.1-ru_RU" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

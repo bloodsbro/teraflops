@@ -7,8 +7,13 @@ $grid-breakpoints: map-merge(
     md: 767px,
     lg: 991px,
     xl: 1141px,
-    xlp: 1240px
+    xlp: 1240px,
   ),
   $grid-breakpoints
 );
 
+$text-danger: #df4128;
+$text-link: #7e7eff;
+$text-dark: #171717;
+$text-gray: #a5a5a5;
+$default-button: linear-gradient(to bottom, #7e7eff, #64c1ff);
