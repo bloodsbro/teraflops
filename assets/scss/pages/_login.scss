@@ -1,4 +1,5 @@
 .login-page {
+  padding-top: 50px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,4 +118,30 @@
     height: 66px;
     object-fit: contain;
   }
+}
+
+.login-top {
+  padding: 0 15px 50px 15px !important;
+}
+
+.reset-top {
+  padding-top: 50px !important;
+}
+
+.login-top:after {
+  top: 48px;
+}
+
+.login-reset__text {
+  margin-bottom: 30px;
+  max-width: 355px;
+  font-size: 16px;
+}
+
+.reset-form {
+  margin-bottom: 20px;
+}
+
+.reset-footer {
+  margin-top: 30px;
 }

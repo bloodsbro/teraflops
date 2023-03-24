@@ -821,6 +821,9 @@ header {
     height: 72px;
     border-radius: 35px;
     font-size: 20px;
+    &.medium {
+      min-width: 358px;
+    }
     @include media-max(md) {
       min-width: calc(100% - 30px);
       margin: 0 15px;
