@@ -136,6 +136,11 @@
   margin-bottom: 30px;
   max-width: 355px;
   font-size: 16px;
+
+  &.confirm {
+    margin-bottom: 8px;
+    margin-top: 30px;
+  }
 }
 
 .reset-form {
@@ -144,4 +149,24 @@
 
 .reset-footer {
   margin-top: 30px;
+}
+
+.confirm-credetials__list {
+  margin: 25px 0;
+}
+
+.confirm-credetials__item {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  color: #fff;
+  list-style: none;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
